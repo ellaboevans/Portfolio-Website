@@ -68,7 +68,7 @@ html {
   }
 
   /* Navigation Style */
-  
+
   header {
     outline: 1px solid white;
   }
@@ -140,5 +140,97 @@ html {
   
   button:hover {
     background-color: #00994f;
+  }
+  
+
+  /* Hero style */
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 1rem 0 1rem;
+  }
+  
+  .hero-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10rem;
+  }
+  
+  .hero-left .greeting {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  
+  .hero-text span {
+    color: var(--primary);
+  }
+  .hero-left h1 {
+    color: var(--primary);
+    font-size: 5rem;
+  }
+  .role {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .hero-left p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin: 2rem 0;
+  }
+  
+  .hero-btn {
+    margin: 2rem 0;
+  }
+  
+  .hero-image img {
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
+    width: 35rem;
+    height: 35rem;
+    border-radius: 100%;
+    transform: scaleX(-1);
+    /* z-index: -1; */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 0;
+    gap: 1rem;
+  }
+  
+  .connect h5 {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.1rem;
+  }
+  .icon {
+    display: flex;
+    gap: 15px;
+  }
+  .icons {
+    color: white;
+    background-color: var(--icon-bg);
+    font-size: 2.1rem;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+  }
+  
+  .social-icons .icons:hover {
+    background-color: var(--primary);
+    box-shadow: var(--box-shadow);
+    transition: 0.9s ease-in-out;
+    transform: translateY(20px);
   }
   
