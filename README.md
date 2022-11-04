@@ -34,6 +34,10 @@ Users should be able to:
 
 - Live Site URL: [codeConcept Website Preview](https://codeconcept.netlify.app)
 
+- See Mockup 1: [CodeCocept Mockup Preview for mobile device](https://www.figma.com/proto/0BPMPqMGFH1Bj7QnlWPP2u/CodeConcept-Portfolio?node-id=44%3A1382&scaling=min-zoom&page-id=8%3A2944&starting-point-node-id=45%3A1595)
+
+- See Mockup 2: [CodeCocept Mockup Preview for Desktop](https://www.figma.com/proto/0BPMPqMGFH1Bj7QnlWPP2u/CodeConcept-Portfolio?node-id=8%3A2946&scaling=min-zoom&page-id=8%3A2944&starting-point-node-id=45%3A1595)
+
 ## My Process
 
 ### Built With
@@ -68,4 +72,4 @@ I will continue to build more complex project to enhance my tech skill.
 
 ## Acknowledgments
 
-Thanks to -[freeCodeCamp](https://www.freecodecamp.org) for the good work they have been doing for us. The courses treated there is worth it and really helpful. And thanks again to all content writers in the globe who are doing their best to support Junior Developers.
+Thanks to [freeCodeCamp](https://www.freecodecamp.org) for the good work they have been doing for us. The courses treated there is worth it and really helpful. And thanks again to all content writers in the globe who are doing their best to support Junior Developers.
