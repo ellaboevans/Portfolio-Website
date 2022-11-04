@@ -40,3 +40,105 @@
   font-family: "poppins", sans-serif;
   /* outline: 2px solid springgreen; */
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body,
+  #home {
+    background: hsla(245, 12%, 17%, 1);
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 95vw;
+    margin: auto;
+    padding: 3rem 0;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Navigation Style */
+  
+  header {
+    outline: 1px solid white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cv {
+    display: none;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: var(--primary);
+    transition: 0.4s ease all;
+  }
+  
+  .nav-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .concept {
+    color: var(--primary);
+  }
+  
+  .hero-btn {
+    z-index: -1;
+  }
+  
+  button {
+    cursor: pointer;
+    background: var(--primary);
+    border: none;
+    border-radius: 15px;
+    padding: 1rem 2.4rem;
+    font-size: 1.5rem;
+    color: var(--links);
+    box-shadow: 0px 0px 24px 2px #18ff90;
+  }
+  
+  button:hover {
+    background-color: #00994f;
+  }
+  
