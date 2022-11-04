@@ -4,7 +4,7 @@
   /* Button styling */
 
   --primary: #02d36f;
-  --button-shadow: 0px 0px 24px 2px #18ff90;
+  --button-shadow: 0px 0px 12px 2px #18ff90;
   --button-size: 1.2rem 2.4rem;
   --font-size: 1.5rem;
   --font-style: "Poppins", sans-serif;
@@ -31,6 +31,10 @@
   /* Project, hero, contact styling  */
   --bg-main: #282732;
   --project-card-bg: #444343;
+
+  /* Mobile Menu Button Styling */
+
+  --cv-bg: #00994f;
 }
 
 * {
@@ -64,13 +68,13 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--links);
 }
 
 /* Navigation Style */
 
 header {
-  outline: 1px solid white;
+  outline: 1px solid var(--links);
 }
 
 .navbar {
@@ -88,7 +92,7 @@ header {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: #fff;
+  background-color: var(--links);
   transition: 0.3s ease-in-out;
 }
 
@@ -106,7 +110,7 @@ header {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 400;
-  color: white;
+  color: var(--links);
 }
 
 .nav-link:hover {
@@ -115,7 +119,7 @@ header {
 }
 
 .nav-logo {
-  color: #fff;
+  color: var(--links);
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -135,11 +139,12 @@ button {
   padding: 1rem 2.4rem;
   font-size: 1.5rem;
   color: var(--links);
-  box-shadow: 0px 0px 24px 2px #18ff90;
+  box-shadow: var(--button-shadow);
 }
 
 button:hover {
   background-color: #00994f;
+  transition: 0.4s ease all;
 }
 
 /* Hero style */
@@ -161,7 +166,7 @@ button:hover {
 .hero-left .greeting {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #fff;
+  color: var(--links);
   letter-spacing: 2px;
 }
 
@@ -175,10 +180,10 @@ button:hover {
 .role {
   font-size: 2rem;
   font-weight: 500;
-  color: #fff;
+  color: var(--links);
 }
 .hero-left p {
-  color: #fff;
+  color: var(--links);
   font-size: 1.1rem;
   font-weight: lighter;
   margin: 2rem 0;
@@ -206,7 +211,7 @@ button:hover {
 }
 
 .connect h5 {
-  color: #fff;
+  color: var(--links);
   font-weight: lighter;
   font-size: 1.1rem;
 }
@@ -215,7 +220,7 @@ button:hover {
   gap: 15px;
 }
 .icons {
-  color: white;
+  color: var(--links);
   background-color: var(--icon-bg);
   font-size: 2.1rem;
   width: 55px;
@@ -274,11 +279,11 @@ button:hover {
     border-radius: 15px;
   }
   .cv a:hover {
-    color: white;
+    color: var(--links);
   }
   .cv:hover {
-    background-color: #00994f;
-    color: white;
+    background-color: var(--cv-bg);
+    color: var(--links);
   }
 
   .btn {
