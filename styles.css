@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
+  
+   /* Background main */
+
+  --main: #161b22;
+  
   /* Button styling */
 
   --primary: #02d36f;
@@ -221,7 +226,7 @@ button:hover {
 }
 .icons {
   color: var(--links);
-  background-color: var(--icon-bg);
+  outline: 2px solid var(--icon-bg);
   font-size: 2.1rem;
   width: 55px;
   height: 55px;
