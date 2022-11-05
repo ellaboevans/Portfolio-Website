@@ -227,9 +227,9 @@ button:hover {
 .icons {
   color: var(--links);
   outline: 2px solid var(--icon-bg);
-  font-size: 2.1rem;
-  width: 55px;
-  height: 55px;
+  font-size: 1.9rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
