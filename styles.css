@@ -48,7 +48,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  /* outline: 2px solid springgreen; */
 }
 
 html {
@@ -247,9 +246,9 @@ button:hover {
 /* Service Styling */
 
 #service {
-  /* width: 100vw; */
+  
   background-color: var(--services-section-bg);
-  /* margin: 0 auto; */
+ 
 }
 
 .services {
