@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
-  
-   /* Background main */
+  /* Background main */
 
   --main: #0d1117;
-  
+
   /* Button styling */
 
   --primary: #02d36f;
@@ -35,6 +34,8 @@
 
   /* Project, hero, contact styling  */
   --bg-main: #282732;
+  --services-section-bg: rgb(12, 24, 21);
+  --service-card: #323142;
   --project-card-bg: #444343;
 
   /* Mobile Menu Button Styling */
@@ -243,6 +244,79 @@ button:hover {
   transform: translateY(20px);
 }
 
+/* Service Styling */
+
+#service {
+  /* width: 100vw; */
+  background-color: var(--services-section-bg);
+  /* margin: 0 auto; */
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-header {
+  color: var(--links);
+  text-align: center;
+  padding-top: 2rem;
+}
+.tag-heading {
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+}
+.service-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+  padding: 2rem 0;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background: var(--service-card);
+  border-radius: 15px;
+  box-shadow: var(--card-shadow);
+}
+.card-info {
+  text-align: center;
+  padding: 1rem;
+  color: var(--links);
+}
+.card-info .service-icon {
+  font-size: 4rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.card-info .service-type {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: var(--links);
+}
+
+.service-description {
+  font-size: 0.9rem;
+}
+
 /* Media Queries for small device */
 
 @media (max-width: 599px) {
@@ -321,6 +395,7 @@ button:hover {
   .nav-btn {
     display: none;
   }
+  /* Hero Styling for mobile */
 
   .hero {
     flex-direction: column;
@@ -348,7 +423,7 @@ button:hover {
     order: 3;
   }
 
-  .icons{
+  .icons {
     border-radius: 100%;
   }
   .hero-image {
@@ -376,5 +451,24 @@ button:hover {
     font-size: 0.9rem;
     padding: 0 5rem;
     margin: 1rem 0;
+  }
+
+  /* Service Styling for mobile */
+
+  .card-main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+  }
+
+  .service-title{
+    font-size: 2rem;
+  }
+
+  .card{
+    width: 300px;
+    height: 300px;
   }
 }
