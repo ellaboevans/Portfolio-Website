@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Secreenshot
 
-![image](./design/Desktop-view2.png)
-![image](./design/closeMenu1.png)
-![image](./design/openMenu3.png)
+![image](./design/DesktopShot.png)
+![image](./design/MobileShot.png)
+![image](./design/MenuShow.png)
 
 ### Links
 
