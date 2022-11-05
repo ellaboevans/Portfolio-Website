@@ -48,7 +48,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  /* outline: 2px solid springgreen; */
+  outline: 2px solid springgreen;
 }
 
 html {
@@ -63,7 +63,7 @@ body,
 
 .container {
   width: 95vw;
-  margin: auto;
+  margin: 0 auto;
   padding: 3rem 0;
   align-items: center;
 }
@@ -247,9 +247,8 @@ button:hover {
 /* Service Styling */
 
 #service {
-  /* width: 100vw; */
   background-color: var(--services-section-bg);
-  /* margin: 0 auto; */
+  overflow-x: hidden;
 }
 
 .services {
@@ -463,11 +462,11 @@ align-items: center; */
     padding: 3rem 5rem;
   }
 
-  .service-title{
+  .service-title {
     font-size: 2rem;
   }
 
-  .card{
+  .card {
     width: 300px;
     height: 300px;
   }
