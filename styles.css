@@ -293,6 +293,7 @@ button:hover {
 
   .btn {
     margin-left: 0rem;
+    order: 4;
   }
 
   .hamburger {
@@ -347,10 +348,9 @@ button:hover {
     order: 3;
   }
 
-  .btn {
-    order: 4;
+  .icons{
+    border-radius: 100%;
   }
-
   .hero-image {
     margin: 2rem 0;
     padding: 0.5rem;
