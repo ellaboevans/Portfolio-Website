@@ -62,6 +62,7 @@ I will continue to build more complex project to enhance my tech skill.
 
 - [W3schools](https://www.w3schools.com) - This website helped me understand the basic use of Media Queries
 - [Figma](https://figma.com) - I used Figma to design the website mock up.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - I revised css grid layout for my desktop layout.
 
 ## Connect Me
 
