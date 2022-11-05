@@ -256,13 +256,13 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .services-header {
   color: var(--links);
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 .tag-heading {
   font-size: 1.5rem;
@@ -282,7 +282,7 @@ button:hover {
 justify-content: center;
 align-items: center; */
   padding: 2rem 0;
-  gap: 2rem;
+  gap: 60px;
 }
 
 .card {
