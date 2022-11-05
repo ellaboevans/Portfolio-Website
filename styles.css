@@ -328,9 +328,10 @@ align-items: center; */
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 0.2rem;
+    top: 0.001em;
     flex-direction: column;
-    width: 100%;
+    width: 75%;
+    height: 100%;
     text-align: center;
     transition: 0.3s;
     background: linear-gradient(
