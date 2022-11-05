@@ -183,7 +183,7 @@ button:hover {
   font-size: 5rem;
 }
 .role {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--links);
 }
@@ -335,12 +335,6 @@ button:hover {
     order: 1;
     width: 500px;
   }
-
-  /* .auto-paragraph {
-      width: 481px;
-      font-weight: lighter;
-      line-height: 1.7;
-    } */
 
   .hero-text {
     justify-content: center;
