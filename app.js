@@ -28,18 +28,7 @@ navLinks.forEach(function (link) {
 
 const preloader = document.querySelector(".preloader");
 const autoTyping = document.querySelector(".auto-type");
-let text = "Loading...";
-let i = 0;
 
-function writeText() {
-  autoTyping.innerText = text.slice(0, i);
-  i++;
-  if (i > text.length) {
-    i = 0;
-  }
-}
-
-setInterval(writeText, 100);
 
 function myPreloader() {
   window.addEventListener("load", function () {
