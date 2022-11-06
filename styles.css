@@ -302,11 +302,49 @@ align-items: center; */
   background: var(--service-card);
   border-radius: 15px;
   box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 500px;
+  background-color: var(--primary);
+ 
+  animation: animate .6s linear infinite;
+}
+
+.card::after {
+  content: "";
+  inset: 4px;
+  position: absolute;
+  background-color: var(--service-card);
+  box-shadow: var(--card-shadow);
+  /* border: 1px solid springgreen; */
+  border-radius: 15px;
+}
+@keyframes animate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .card-info {
   text-align: center;
   padding: 1rem;
   color: var(--links);
+  position: relative;
+  z-index: 10;
+}
+
+@keyframes title {
+  to{
+    color: var(--primary)
+  }
 }
 .card-info .service-icon {
   font-size: 4rem;
@@ -319,6 +357,8 @@ align-items: center; */
   font-weight: 500;
   margin-bottom: 1.2rem;
   color: var(--links);
+  animation: title 1.5s linear infinite alternate;
+
 }
 
 .service-description {
@@ -526,6 +566,5 @@ align-items: center; */
     font-size: 1.1rem;
     text-align: center;
     font-style: italic;
-    
   }
 }
