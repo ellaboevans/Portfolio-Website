@@ -29,16 +29,9 @@ navLinks.forEach(function (link) {
 const preloader = document.querySelector(".preloader");
 const autoTyping = document.querySelector(".auto-type");
 
-
-
-function myPreloader() {
-  window.addEventListener("load", function () {
-    preloader.classList.add("hide-preloader");
-  });
-}
-
-setTimeout(myPreloader, 10);
-clearTimeout(myPreloader, 1000);
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
 
 // Preload Text
 function preloaderText() {
