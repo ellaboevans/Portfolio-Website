@@ -30,6 +30,7 @@ const preloader = document.querySelector(".preloader");
 const autoTyping = document.querySelector(".auto-type");
 
 
+
 function myPreloader() {
   window.addEventListener("load", function () {
     preloader.classList.add("hide-preloader");
@@ -38,3 +39,10 @@ function myPreloader() {
 
 setTimeout(myPreloader, 10);
 clearTimeout(myPreloader, 1000);
+
+// Preload Text
+function preloaderText() {
+  let text = "Please reload the page manually if it doesn't redirect";
+  return text;
+}
+autoTyping.innerText = preloaderText();
