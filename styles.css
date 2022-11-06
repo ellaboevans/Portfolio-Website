@@ -197,7 +197,8 @@ button:hover {
   color: var(--links);
   font-size: 1.1rem;
   font-weight: lighter;
-  margin: 1rem 0;
+  /* margin: 1rem 2rem; */
+  padding: 1rem 5rem 1rem 0;
 }
 
 .hero-btn {
@@ -207,8 +208,9 @@ button:hover {
 .hero-image img {
   object-fit: cover;
   box-shadow: var(--box-shadow);
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
+  /* margin-right: 10.5rem; */
   border-radius: 100%;
   transform: scaleX(-1);
   /* z-index: -1; */
@@ -217,7 +219,7 @@ button:hover {
 .social-icons {
   display: flex;
   align-items: center;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
   gap: 1rem;
 }
 
@@ -445,7 +447,7 @@ align-items: center; */
 
   .hero-left {
     margin-right: -0.5rem;
-    margin-top: 2.7rem;
+    /* margin-top: 2.7rem; */
     text-align: center;
     order: 1;
     width: 500px;
@@ -475,6 +477,7 @@ align-items: center; */
     box-shadow: var(--box-shadow);
     width: 20rem;
     height: 20rem;
+    margin-top: 1rem;
     border-radius: 100%;
     transform: scaleX(1);
     z-index: -1;
