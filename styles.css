@@ -197,18 +197,18 @@ button:hover {
   color: var(--links);
   font-size: 1.1rem;
   font-weight: lighter;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .hero-btn {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .hero-image img {
   object-fit: cover;
   box-shadow: var(--box-shadow);
-  width: 35rem;
-  height: 35rem;
+  width: 30rem;
+  height: 30rem;
   border-radius: 100%;
   transform: scaleX(-1);
   /* z-index: -1; */
