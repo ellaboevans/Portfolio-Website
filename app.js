@@ -23,3 +23,11 @@ navLinks.forEach(function (link) {
     navMenu.classList.remove("active");
   }
 });
+
+// preloader
+
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
