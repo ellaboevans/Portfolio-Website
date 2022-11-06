@@ -219,7 +219,7 @@ button:hover {
 .social-icons {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
   gap: 1rem;
 }
 
@@ -235,7 +235,7 @@ button:hover {
 .icons {
   color: var(--links);
   background-color: var(--icon-bg);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   width: 3rem;
   height: 3rem;
   display: flex;
