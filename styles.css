@@ -15,7 +15,7 @@
   --border: none;
   --corner-radius: 15px;
   --links: #fff;
-
+  --header-shadow: 0px 10px 10px 0px rgba(41, 41, 51, 0.829);
   /* Icons styling */
 
   --icon-bg: #579879;
@@ -64,7 +64,7 @@ body,
 .container {
   width: 95vw;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   align-items: center;
 }
 
@@ -80,7 +80,12 @@ a {
 /* Navigation Style */
 
 header {
-  outline: 1px solid var(--links);
+  /* outline: 1px solid var(--links); */
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  background-color: var(--main);
+  box-shadow: var(--header-shadow);
 }
 
 .navbar {
@@ -159,7 +164,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5rem 1rem 0 1rem;
+  margin: 7.5rem 1rem 3rem 1rem;
 }
 
 .hero-left {
@@ -256,7 +261,8 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 1rem 0; */
+  margin-top: 3.5rem;
+  padding: 2rem 0;
 }
 
 .services-header {
@@ -323,6 +329,12 @@ align-items: center; */
   .container {
     /* margin: 0 1rem 0 0rem; */
     width: 95vw;
+  }
+
+  header {
+    position: fixed;
+    box-shadow: none;
+    top: 0;
   }
 
   .nav-menu {
@@ -401,7 +413,7 @@ align-items: center; */
   .hero {
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: 2.5rem 0;
     /* z-index: -1; */
   }
 
