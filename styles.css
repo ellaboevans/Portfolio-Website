@@ -338,7 +338,7 @@ align-items: center; */
   padding: 1rem;
   color: var(--links);
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
 @keyframes title {
