@@ -289,8 +289,7 @@ button:hover {
   /* display: flex;
 justify-content: center;
 align-items: center; */
-  padding: 0 0 0 0;
-  gap: 45px;
+gap: 45px;
 }
 
 .card {
