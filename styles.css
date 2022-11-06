@@ -289,16 +289,17 @@ button:hover {
   /* display: flex;
 justify-content: center;
 align-items: center; */
-  padding: 2rem 0;
-  gap: 60px;
+  padding: 0 0 0 0;
+  gap: 45px;
 }
 
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
+  /* padding-bottom: 1rem; */
   background: var(--service-card);
   border-radius: 15px;
   box-shadow: var(--card-shadow);
