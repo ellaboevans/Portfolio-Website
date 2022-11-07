@@ -313,7 +313,7 @@ align-items: center; */
   height: 500px;
   background-color: var(--primary);
   border-radius: 15px;
-  animation: animate .6s linear infinite;
+  animation: animate 0.6s linear infinite;
 }
 
 .card::after {
@@ -342,8 +342,8 @@ align-items: center; */
 }
 
 @keyframes title {
-  to{
-    color: var(--primary)
+  to {
+    color: var(--primary);
   }
 }
 .card-info .service-icon {
@@ -358,7 +358,6 @@ align-items: center; */
   margin-bottom: 1.2rem;
   color: var(--links);
   animation: title 1.5s linear infinite alternate;
-
 }
 
 .service-description {
@@ -544,13 +543,16 @@ align-items: center; */
   }
 
   /* Service Styling for mobile */
+.services{
+  margin-top: 0;
+}
 
   .card-main {
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
   }
 
   .service-title {
