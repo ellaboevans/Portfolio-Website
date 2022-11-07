@@ -277,9 +277,12 @@ button:hover {
   font-weight: normal;
   letter-spacing: 0.2rem;
 }
-.service-title {
+
+
+.service-title, .title {
   text-align: center;
   font-size: 3rem;
+  color: var(--links);
 }
 
 .card-main {
@@ -555,7 +558,7 @@ align-items: center; */
     padding: 1rem 5rem;
   }
 
-  .service-title {
+  .service-title, .title {
     font-size: 2rem;
   }
 
