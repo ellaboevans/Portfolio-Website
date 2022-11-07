@@ -436,18 +436,15 @@ align-items: center; */
   align-items: center;
   gap: 5rem;
   padding: 3rem 0;
-  /* margin-bottom: 2rem; */
   margin-top: -2rem;
-  outline: 2px solid springgreen;
+  /* outline: 2px solid springgreen; */
 }
 .project-cards {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   width: 450px;
   height: 300px;
-  /* padding: 0rem 2rem;  ; */
 }
 .project-name {
   display: inline-flex;
@@ -467,8 +464,7 @@ align-items: center; */
   justify-content: center;
   width: 450px;
   height: 300px;
-  outline: 2px dotted white;
-  box-shadow: var(--card-shadow);
+  box-shadow: 9px 6px 17px 1px rgba(0, 0, 0, 0.555);
   background-color: var(--project-card-bg);
 }
 
@@ -478,9 +474,12 @@ align-items: center; */
   width: 40vw;
   height: 40vh;
   margin: 2rem 1rem;
+
   /* outline: 2px solid pink; */
   /* box-shadow: var(--card-shadow); */
 }
+
+
 
 /* Media Queries for small device */
 
@@ -661,7 +660,7 @@ align-items: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 81px 75px 20px;
+    padding: 81px 21px 20px;
     /* position: absolute; */
     /* width: 95vw; */
     background-color: hsla(245, 12%, 17%, 1);
@@ -677,10 +676,40 @@ align-items: center; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     padding: 1.2rem;
-    /* margin-bottom: 2rem; */
     margin-top: -2rem;
-    outline: 2px solid springgreen;
-}
+  }
+  .project-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .project-card--image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 333px;
+    height: 265px;
+    box-shadow: none;
+    border-radius: 15px;
+    background-color: hsla(245, 12%, 17%, 1);
+  }
+
+  .project-image {
+    position: absolute;
+    min-width: 90vw;
+    max-height: 32vh;
+    border-radius: 15px;
+
+  }
+
+  .project-name {
+    display: inline-flex;
+    margin-left: -10rem;
+  }
 }
