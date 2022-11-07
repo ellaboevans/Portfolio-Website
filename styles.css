@@ -363,9 +363,17 @@ align-items: center; */
   animation: title 1.5s linear infinite alternate;
 }
 
-.service-description {
+.service-description .info {
   font-size: 0.9rem;
+  text-align: center;
 }
+
+.info{
+  text-align: center;
+  padding: 1.2rem 25rem;
+}
+
+
 /* Preloader styling */
 .preloader {
   position: fixed;
@@ -400,6 +408,29 @@ align-items: center; */
   font-size: 5rem;
   margin-bottom: 1rem;
 }
+
+
+/* Project Styling */
+.project-main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.project{
+ display: grid;
+ grid-template-columns: repeat(2, 2fr);
+ gap: 2rem;
+}
+
+.project-name{
+  display: flex;
+  /* flex-direction: row; */
+}
+
 
 /* Media Queries for small device */
 
