@@ -80,7 +80,6 @@ a {
 /* Navigation Style */
 
 header {
-  /* outline: 1px solid var(--links); */
   position: fixed;
   width: 100vw;
   z-index: 10;
@@ -197,7 +196,6 @@ button:hover {
   color: var(--links);
   font-size: 1.1rem;
   font-weight: lighter;
-  /* margin: 1rem 2rem; */
   padding: 1rem 5rem 1rem 0;
 }
 
@@ -210,10 +208,8 @@ button:hover {
   box-shadow: var(--box-shadow);
   width: 25rem;
   height: 25rem;
-  /* margin-right: 10.5rem; */
   border-radius: 100%;
   transform: scaleX(-1);
-  /* z-index: -1; */
 }
 
 .social-icons {
@@ -286,12 +282,10 @@ button:hover {
 }
 
 .card-main {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
   justify-content: space-between;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 45px;
 }
 
@@ -301,7 +295,6 @@ align-items: center;
   align-items: center;
   width: 330px;
   height: 330px;
-  /* padding-bottom: 1rem; */
   background: var(--service-card);
   border-radius: 15px;
   box-shadow: var(--card-shadow);
@@ -325,7 +318,6 @@ align-items: center;
   position: absolute;
   background-color: var(--service-card);
   box-shadow: var(--card-shadow);
-  /* border: 1px solid springgreen; */
   border-radius: 15px;
 }
 @keyframes animate {
@@ -344,11 +336,11 @@ align-items: center;
   z-index: 1;
 }
 
-@keyframes title {
+/* @keyframes title {
   to {
     color: var(--primary);
   }
-}
+} */
 .card-info .service-icon {
   font-size: 4rem;
   color: var(--primary);
@@ -360,7 +352,7 @@ align-items: center;
   font-weight: 500;
   margin-bottom: 1.2rem;
   color: var(--links);
-  animation: title 1.5s linear infinite alternate;
+  /* animation: title 1.5s linear infinite alternate; */
 }
 
 .service-description .info {
@@ -404,6 +396,7 @@ align-items: center;
 }
 
 /* Project Styling */
+
 .project-main {
   display: flex;
   flex-direction: column;
@@ -435,7 +428,6 @@ align-items: center;
   gap: 5rem;
   padding: 3rem 0;
   margin-top: -2rem;
-  /* outline: 2px solid springgreen; */
 }
 .project-cards {
   display: flex;
@@ -448,12 +440,10 @@ align-items: center;
   display: inline-flex;
   color: var(--links);
   align-items: center;
-  /* justify-content: flex-end; */
   margin-top: 1rem;
   margin-left: -19rem;
   gap: 0.5rem;
   font-size: 1.5rem;
-  /* outline: 1px solid springgreen; */
 }
 .project-card--image {
   position: relative;
@@ -468,24 +458,15 @@ align-items: center;
 
 .project-image {
   position: relative;
-  /* padding: 2rem 0; */
   width: 40vw;
   height: 40vh;
   margin: 2rem 1rem;
-  
-
-
-  /* outline: 2px solid pink; */
-  /* box-shadow: var(--card-shadow); */
 }
-
-
 
 /* Media Queries for small device */
 
 @media (max-width: 599px) {
   .container {
-    /* margin: 0 1rem 0 0rem; */
     width: 95vw;
   }
 
@@ -544,7 +525,6 @@ align-items: center;
   .hamburger {
     display: block;
     cursor: pointer;
-    /* margin-left: 13rem; */
   }
 
   .hamburger.active {
@@ -572,12 +552,10 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     margin: 2.5rem 0;
-    /* z-index: -1; */
   }
 
   .hero-left {
     margin-right: -0.5rem;
-    /* margin-top: 2.7rem; */
     text-align: center;
     order: 1;
     width: 500px;
@@ -661,8 +639,6 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     padding: 5rem 0;
-    /* position: absolute; */
-    /* width: 95vw; */
     background-color: hsla(245, 12%, 17%, 1);
     overflow: hidden;
   }
@@ -701,12 +677,9 @@ align-items: center;
   }
 
   .project-image {
-    /* position: absolute; */
     width: 90vw;
-    /* max-height: 32vh; */
     border-radius: 15px;
     object-fit: contain;
-
   }
 
   .project-name {
@@ -718,5 +691,5 @@ align-items: center;
     margin-left: 0;
     gap: 0.5rem;
     font-size: 1.5rem;
-}
+  }
 }
