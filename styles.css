@@ -312,7 +312,7 @@ align-items: center; */
   width: 150px;
   height: 500px;
   background-color: var(--primary);
- 
+  border-radius: 15px;
   animation: animate .6s linear infinite;
 }
 
