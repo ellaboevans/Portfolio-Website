@@ -278,8 +278,8 @@ button:hover {
   letter-spacing: 0.2rem;
 }
 
-
-.service-title, .title {
+.service-title,
+.title {
   text-align: center;
   font-size: 3rem;
   color: var(--links);
@@ -368,12 +368,6 @@ align-items: center; */
   text-align: center;
 }
 
-.info{
-  text-align: center;
-  padding: 1.2rem 25rem;
-}
-
-
 /* Preloader styling */
 .preloader {
   position: fixed;
@@ -409,28 +403,84 @@ align-items: center; */
   margin-bottom: 1rem;
 }
 
-
 /* Project Styling */
-.project-main{
-  position: relative;
+.project-main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 3rem;
+  padding: 122px 75px 20px;
+  /* position: absolute; */
+  /* width: 95vw; */
+  background-color: hsla(245, 12%, 17%, 1);
+  overflow: hidden;
+}
+.info {
+  text-align: center;
+  padding: 0.5rem 20rem;
+  color: var(--links);
 }
 
-.project{
- display: grid;
- grid-template-columns: repeat(2, 2fr);
- gap: 2rem;
-}
-
-.project-name{
+.project-items {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 3rem 0;
+  /* margin-bottom: 2rem; */
+  margin-top: -2rem;
+  outline: 2px solid springgreen;
+}
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 450px;
+  height: 300px;
+  /* padding: 0rem 2rem;  ; */
+}
+.project-name {
+  display: inline-flex;
+  color: var(--links);
+  align-items: center;
+  /* justify-content: flex-end; */
+  margin-top: 1rem;
+  margin-left: -19rem;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  /* outline: 1px solid springgreen; */
+}
+.project-card--image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+  outline: 2px dotted white;
+  box-shadow: var(--card-shadow);
+  background-color: var(--project-card-bg);
+}
+
+.project-image {
+  position: relative;
+  /* padding: 2rem 0; */
+  width: 40vw;
+  height: 40vh;
+  margin: 2rem 1rem;
+  /* outline: 2px solid pink; */
+  /* box-shadow: var(--card-shadow); */
+}
 
 /* Media Queries for small device */
 
@@ -577,9 +627,9 @@ align-items: center; */
   }
 
   /* Service Styling for mobile */
-.services{
-  margin-top: 0;
-}
+  .services {
+    margin-top: 0;
+  }
 
   .card-main {
     display: flex;
@@ -589,7 +639,8 @@ align-items: center; */
     padding: 1rem 5rem;
   }
 
-  .service-title, .title {
+  .service-title,
+  .title {
     font-size: 2rem;
   }
 
@@ -603,4 +654,33 @@ align-items: center; */
     text-align: center;
     font-style: italic;
   }
+
+  /* Project Styling */
+
+  .project-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 81px 75px 20px;
+    /* position: absolute; */
+    /* width: 95vw; */
+    background-color: hsla(245, 12%, 17%, 1);
+    overflow: hidden;
+  }
+  .info {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: var(--links);
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1.2rem;
+    /* margin-bottom: 2rem; */
+    margin-top: -2rem;
+    outline: 2px solid springgreen;
+}
 }
