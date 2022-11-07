@@ -286,12 +286,12 @@ button:hover {
 }
 
 .card-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
   justify-content: space-between;
-  /* display: flex;
+  display: flex;
 justify-content: center;
-align-items: center; */
+align-items: center;
   gap: 45px;
 }
 
@@ -409,8 +409,6 @@ align-items: center; */
   flex-direction: column;
   align-items: center;
   padding: 122px 75px 20px;
-  /* position: absolute; */
-  /* width: 95vw; */
   background-color: hsla(245, 12%, 17%, 1);
   overflow: hidden;
 }
