@@ -39,3 +39,20 @@ function preloaderText() {
   return text;
 }
 autoTyping.innerText = preloaderText();
+
+// Hero Head Text
+
+const heroText = document.querySelector(".hero-head");
+
+let person = {
+  firstName: "Evans",
+  lastName: "Elabo",
+};
+
+const hero = () => {
+  let head = `${person.firstName} ${person.lastName}`;
+  return head;
+};
+
+heroText.innerHTML = hero();
+
