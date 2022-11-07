@@ -70,3 +70,16 @@ const roleText = () => {
 };
 
 role.innerText = roleText();
+
+// Service Title
+
+const serviceTitle = document.querySelector(".service-title");
+
+let service = "What I do";
+
+const serviceText = () => {
+  let services = `${service}`;
+  return services;
+};
+
+serviceTitle.innerText = serviceText();
