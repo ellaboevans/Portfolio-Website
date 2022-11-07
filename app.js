@@ -47,6 +47,10 @@ const heroText = document.querySelector(".hero-head");
 let person = {
   firstName: "Evans",
   lastName: "Elabo",
+  skill: {
+    programming: "Web Developer",
+    designTool: "UI/UX Designer",
+  },
 };
 
 const hero = () => {
@@ -56,3 +60,13 @@ const hero = () => {
 
 heroText.innerHTML = hero();
 
+// Hero Role Text
+
+const role = document.querySelector("#role");
+
+const roleText = () => {
+  let roles = `${person.skill.programming} And ${person.skill.designTool}`;
+  return roles;
+};
+
+role.innerText = roleText();
