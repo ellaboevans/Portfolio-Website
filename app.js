@@ -83,3 +83,17 @@ const serviceText = () => {
 };
 
 serviceTitle.innerText = serviceText();
+
+// Project Description
+
+const description = document.querySelector(".info");
+
+let desc =
+  "Please glance at some of our projects. There are both finished and ongoing projects for UI and web design.";
+
+const projectDescription = () => {
+  let descriptions = ` ${desc}`;
+  return descriptions;
+};
+
+description.innerText = projectDescription();
