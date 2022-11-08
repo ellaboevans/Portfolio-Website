@@ -452,6 +452,7 @@ button:hover {
   justify-content: center;
   width: 450px;
   height: 300px;
+  border-radius: 15px;
   box-shadow: 9px 6px 17px 1px rgba(0, 0, 0, 0.555);
   background-color: var(--project-card-bg);
 }
@@ -461,6 +462,7 @@ button:hover {
   width: 40vw;
   height: 40vh;
   margin: 2rem 1rem;
+  border-radius: 15px;
 }
 
 /* Media Queries for small device */
