@@ -320,6 +320,7 @@ button:hover {
   box-shadow: var(--card-shadow);
   border-radius: 15px;
 }
+
 @keyframes animate {
   from {
     transform: rotate(0);
@@ -336,11 +337,6 @@ button:hover {
   z-index: 1;
 }
 
-/* @keyframes title {
-  to {
-    color: var(--primary);
-  }
-} */
 .card-info .service-icon {
   font-size: 4rem;
   color: var(--primary);
@@ -352,7 +348,6 @@ button:hover {
   font-weight: 500;
   margin-bottom: 1.2rem;
   color: var(--links);
-  /* animation: title 1.5s linear infinite alternate; */
 }
 
 .service-description .info {
