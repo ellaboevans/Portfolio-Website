@@ -88,11 +88,18 @@ serviceTitle.innerText = serviceText();
 
 const description = document.querySelector(".info");
 
-let desc =
-  "Please glance at some of our projects. There are both finished and ongoing projects for UI and web design.";
+let projectType = {
+  type1: "finished",
+  type2: "ongoing",
+  kinds: {
+    graphics: "UI Design",
+    web: "Web Design",
+  },
+};
+// ("Please glance at some of our projects. There are both finished and ongoing projects for UI and web design.");
 
 const projectDescription = () => {
-  let descriptions = ` ${desc}`;
+  let descriptions = `Please glance at some of our projects.There are both ${projectType.type1} and ${projectType.type2} for ${projectType.kinds.graphics} and ${projectType.kinds.web}`;
   return descriptions;
 };
 
