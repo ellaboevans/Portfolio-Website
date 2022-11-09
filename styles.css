@@ -535,8 +535,8 @@ button:hover {
 
 .testifier-detail h5 {
   font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: 0.2rem;
+  font-weight: 500;
+margin-bottom: -.4rem;
 }
 
 .arrows {
