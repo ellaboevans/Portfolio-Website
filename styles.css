@@ -482,7 +482,6 @@ button:hover {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 1.5rem;
-  
 }
 
 .testimonial-card {
@@ -512,7 +511,7 @@ button:hover {
   gap: 2rem;
   padding-top: 1.2rem;
 }
-.testimonial-text{
+.testimonial-text {
   text-align: center;
 }
 
@@ -536,7 +535,7 @@ button:hover {
 .testifier-detail h5 {
   font-size: 1.2rem;
   font-weight: 500;
-margin-bottom: -.4rem;
+  margin-bottom: -0.4rem;
 }
 
 .arrows {
@@ -567,61 +566,57 @@ margin-bottom: -.4rem;
   transition: 0.4s ease;
 }
 
-#connect-card{
+#connect-card {
   background-color: var(--bg-main);
   overflow-x: hidden;
 }
 
-.connect-card-main{
+.connect-card-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
   gap: 1rem;
-
 }
-.connect-card{
-  width: 85vw;
+.connect-card {
+  width: 70vw;
   display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 5rem 2rem;
-gap: 1rem;
-background: #323142;
-box-shadow: var(--card-shadow);
-border-radius: 15px;;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+  gap: 1rem;
+  background: #323142;
+  box-shadow: var(--card-shadow);
+  border-radius: 15px;
 }
 
-.flash-card-info{
+.flash-card-info {
   display: flex;
   align-items: center;
   padding: 0;
   width: 70rem;
   gap: 1rem;
-
 }
 
-.flash-card-detail{
+.flash-card-detail {
   color: var(--links);
-  width: 56rem;
+  width: 50rem;
 }
 
-.card-title{
+.card-title {
   color: var(--links);
   font-size: 3rem;
-  padding-left: 1rem;
+  padding-left: 8rem;
   text-align: left;
   line-height: 4.2rem;
 }
 
-.flash-card-detail p{
+.flash-card-detail p {
   padding-top: 1.5rem;
-  padding-left: 1rem;
-
+  padding-left: 8rem;
 }
-
 
 /* Media Queries for small device */
 
@@ -856,37 +851,39 @@ border-radius: 15px;;
   .testimonial-detail {
     text-align: center;
     /* padding: 2rem ; */
-    padding:2rem 0 2rem 0;
-}
+    padding: 2rem 0 2rem 0;
+  }
   .testimonial-card {
     width: 20rem;
     padding: 1.2rem 1rem;
   }
 
-  .testifier-info{
+  .testifier-info {
     padding-top: 0;
   }
 
-  .testifier-image, .testifier-image img {
+  .testifier-image,
+  .testifier-image img {
     width: 83px;
     height: 83px;
   }
-  .testimonial-card-info{
+  .testimonial-card-info {
     /* align-items: center; */
     gap: 1rem;
   }
 
-  .testimonial-arrows{
+  .testimonial-arrows {
     width: 1px;
     height: 1px;
     margin-top: 1rem;
     font-size: 1rem;
   }
 
-  .testimonial-text{
-    font-size: 1rem;;
+  .testimonial-text {
+    font-size: 1rem;
     font-weight: 400;
     /* text-align: center; */
   }
 
+  /* Connect Card */
 }
