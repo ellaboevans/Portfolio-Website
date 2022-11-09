@@ -356,6 +356,7 @@ button:hover {
 }
 
 /* Preloader styling */
+
 .preloader {
   position: fixed;
   height: 100%;
@@ -467,6 +468,7 @@ button:hover {
 }
 
 /* Tesimonial section */
+
 #testimonial {
   background-color: var(--services-section-bg);
   overflow-x: hidden;
@@ -495,7 +497,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   padding: 0;
   gap: 16px;
   color: var(--links);
@@ -613,7 +614,6 @@ button:hover {
 
 .flash-card-detail p {
   padding-top: 1.5rem;
-  /* padding-left: 8rem; */
 }
 
 /* Media Queries for small device */
@@ -757,6 +757,7 @@ button:hover {
   }
 
   /* Service Styling for mobile */
+
   .services {
     margin-top: 0;
   }
@@ -846,9 +847,9 @@ button:hover {
     font-size: 1.5rem;
   }
   /* Testimonial Section */
+
   .testimonial-detail {
     text-align: center;
-    /* padding: 2rem ; */
     padding: 2rem 0 2rem 0;
   }
   .testimonial-card {
@@ -866,7 +867,6 @@ button:hover {
     height: 83px;
   }
   .testimonial-card-info {
-    /* align-items: center; */
     gap: 1rem;
   }
 
@@ -880,17 +880,13 @@ button:hover {
   .testimonial-text {
     font-size: 1rem;
     font-weight: 400;
-    /* text-align: center; */
   }
 
   /* Connect Card */
 
-  /* .connect-card-main{
-    padding: 2rem;
-  } */
+ 
   .connect-card{
     width: 90vw;
-    /* padding: 5rem 2rem; */
   }
 
  .flash-card-info{
