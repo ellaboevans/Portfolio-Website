@@ -567,6 +567,61 @@ margin-bottom: -.4rem;
   transition: 0.4s ease;
 }
 
+#connect-card{
+  background-color: var(--bg-main);
+  overflow-x: hidden;
+}
+
+.connect-card-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  gap: 1rem;
+
+}
+.connect-card{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5rem 2rem;
+gap: 1rem;
+background: #323142;
+box-shadow: var(--card-shadow);
+border-radius: 15px;;
+}
+
+.flash-card-info{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 70rem;
+  gap: 1rem;
+
+}
+
+.flash-card-detail{
+  color: var(--links);
+  width: 56rem;
+}
+
+.card-title{
+  color: var(--links);
+  font-size: 3rem;
+  padding-left: 1rem;
+  text-align: left;
+  line-height: 4.2rem;
+}
+
+.flash-card-detail p{
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+
+}
+
 
 /* Media Queries for small device */
 
