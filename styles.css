@@ -484,8 +484,8 @@ button:hover {
 }
 
 .testimonial-card {
-  width: 40rem;
-  padding: 1.5rem 5rem;
+  width: 50rem;
+  padding: 1.5rem 1.5rem;
   background: #323142;
   box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.54);
   border-radius: var(--corner-radius);
@@ -494,13 +494,14 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  /* align-items: center; */
   padding: 0;
   gap: 16px;
   color: var(--links);
 }
 .quote {
   font-size: 55px;
+  margin-left: 2rem;
 }
 .testifier-info {
   display: flex;
@@ -509,10 +510,13 @@ button:hover {
   gap: 2rem;
   padding-top: 1.2rem;
 }
+.testimonial-text{
+  text-align: center;
+}
 
 .testifier-image {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   left: 0;
   top: 150px;
   border-radius: 100%;
@@ -520,8 +524,8 @@ button:hover {
 }
 
 .testifier-image img {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 100%;
   transform: matrix(-1, 0, 0, 1, 0, 0);
