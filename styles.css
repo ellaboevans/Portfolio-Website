@@ -476,7 +476,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem ;
+  padding: 3rem;
 }
 .testimonial-detail {
   text-align: center;
@@ -484,10 +484,10 @@ button:hover {
 }
 
 .testimonial-card {
-  width: 55rem;
-  padding: 3rem;
+  width: 40rem;
+  padding: 1.5rem 5rem;
   background: #323142;
-  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.54);;
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.54);
   border-radius: var(--corner-radius);
 }
 .testimonial-card-info {
@@ -796,4 +796,41 @@ button:hover {
     gap: 0.5rem;
     font-size: 1.5rem;
   }
+  /* Testimonial Section */
+  .testimonial-detail {
+    text-align: center;
+    /* padding: 2rem ; */
+    padding:0 0 2rem 0;
+}
+  .testimonial-card {
+    width: 20rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .testifier-info{
+    padding-top: 0;
+  }
+
+  .testifier-image, .testifier-image img {
+    width: 83px;
+    height: 83px;
+  }
+  .testimonial-card-info{
+    /* align-items: center; */
+    gap: 1rem;
+  }
+
+  .testimonial-arrows{
+    width: 1px;
+    height: 1px;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .testimonial-text{
+    font-size: 1rem;;
+    font-weight: 400;
+    /* text-align: center; */
+  }
+
 }
