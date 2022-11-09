@@ -657,7 +657,7 @@ button:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 0;
-}
+  }
 
   .nav-menu.active {
     left: 0;
