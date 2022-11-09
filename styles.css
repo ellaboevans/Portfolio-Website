@@ -397,7 +397,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 122px 75px 20px;
+  padding: 122px 10px;
   background-color: hsla(245, 12%, 17%, 1);
   overflow: hidden;
 }
@@ -429,8 +429,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 300px;
+  /* width: 450px; */
+  /* height: 300px; */
 }
 .project-name {
   display: inline-flex;
@@ -445,19 +445,25 @@ button:hover {
 .project-card--image {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 450px;
-  height: 300px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 450px; */
+  /* height: 300px; */
   border-radius: 15px;
   box-shadow: 9px 6px 17px 1px rgba(0, 0, 0, 0.555);
   background-color: var(--project-card-bg);
 }
 
+.project-card--image img {
+  object-fit: cover;
+  width: 40vw;
+  /* height: 500px; */
+}
+
 .project-image {
   position: relative;
-  width: 40vw;
-  height: 40vh;
+  /* width: 40vw; */
+  /* height: 40vh; */
   margin: 2rem 1rem;
   border-radius: 15px;
 }
@@ -824,16 +830,26 @@ button:hover {
     align-items: center;
     justify-content: center;
     width: 333px;
-    height: 265px;
+    height: 20vh;
     box-shadow: none;
     border-radius: 15px;
     background-color: hsla(245, 12%, 17%, 1);
   }
 
+  .project-card--image img {
+    object-fit: cover;
+    width: 95vw;
+    /* height: 500px; */
+  }
+
+  .card-hover:hover {
+    background: none;
+    transition: none;
+  }
   .project-image {
     width: 90vw;
     border-radius: 15px;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .project-name {
@@ -884,35 +900,33 @@ button:hover {
 
   /* Connect Card */
 
- 
-  .connect-card{
+  .connect-card {
     width: 90vw;
   }
 
- .flash-card-info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- } 
- .flash-card-detail{
-  color: var(--links);
+  .flash-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flash-card-detail {
+    color: var(--links);
     width: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+  }
 
- .card-title{
-  text-align: center;
-  font-size: 1.7rem;
-  line-height: 2rem;
- }
+  .card-title {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
 
- .flash-card-detail p {
-  font-size: 1.2rem ;
-  padding: 2rem 1rem 0;
-  text-align: center;
-  margin-bottom: 1rem;
-
- }
+  .flash-card-detail p {
+    font-size: 1.2rem;
+    padding: 2rem 1rem 0;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 }
