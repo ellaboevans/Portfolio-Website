@@ -652,6 +652,12 @@ button:hover {
     box-shadow: -20px 26px 50px rgba(0, 0, 0, 0.67);
     z-index: 1;
   }
+  .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+}
 
   .nav-menu.active {
     left: 0;
