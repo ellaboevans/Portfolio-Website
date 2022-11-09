@@ -439,9 +439,7 @@ button:hover {
   margin-left: -19rem;
   gap: 0.5rem;
   font-size: 1.5rem;
-  
 }
-
 
 .project-card--image {
   position: relative;
@@ -463,9 +461,108 @@ button:hover {
   border-radius: 15px;
 }
 
-.card-hover:hover{
+.card-hover:hover {
   background: var(--primary);
-transition: .5s ease all;
+  transition: 0.5s ease all;
+}
+
+/* Tesimonial section */
+#testimonial {
+  background-color: var(--services-section-bg);
+  overflow-x: hidden;
+}
+.testimonial-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-detail {
+  text-align: center;
+  padding: 2rem;
+}
+
+.testimonial-card {
+  width: 55rem;
+  padding: 3rem;
+  background: #323142;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.54);;
+}
+.testimonial-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  color: var(--links);
+}
+.quote {
+  font-size: 55px;
+}
+.testifier-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1.2rem;
+}
+
+.testifier-image {
+  width: 110px;
+  height: 110px;
+  left: 0;
+  top: 150px;
+  border-radius: 100%;
+  box-shadow: var(--box-shadow);
+}
+
+.testifier-image img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 100%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.testifier-detail h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonial-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2px;
+  height: 2px;
+  padding: 1.5rem;
+  color: var(--primary);
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 100%;
+  gap: 2rem;
+  background-color: #323142;
+}
+
+.testimonial-arrows:hover {
+  background-color: var(--main);
+  transition: 0.4s ease;
+}
+
+.arrow i {
+  align-self: center;
+  padding: 2rem;
+  background-color: #00994f;
 }
 
 /* Media Queries for small device */
