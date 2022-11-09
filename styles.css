@@ -548,12 +548,12 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2px;
-  height: 2px;
-  padding: 1.5rem;
+  width: 1px;
+  height: 1px;
+  padding: 1.3rem;
   color: var(--primary);
   margin-top: 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 100%;
   gap: 2rem;
@@ -565,11 +565,6 @@ button:hover {
   transition: 0.4s ease;
 }
 
-.arrow i {
-  align-self: center;
-  padding: 2rem;
-  background-color: #00994f;
-}
 
 /* Media Queries for small device */
 
