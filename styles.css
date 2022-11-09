@@ -584,7 +584,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 2rem;
+  padding: 5rem 1.5rem;
   gap: 1rem;
   background: #323142;
   box-shadow: var(--card-shadow);
