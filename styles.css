@@ -580,12 +580,11 @@ button:hover {
   gap: 1rem;
 }
 .connect-card {
-  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 1rem;
+  padding: 5rem 2rem;
   gap: 1rem;
   background: #323142;
   box-shadow: var(--card-shadow);
@@ -596,7 +595,6 @@ button:hover {
   display: flex;
   align-items: center;
   padding: 0;
-  width: 70rem;
   gap: 1rem;
 }
 
@@ -608,14 +606,14 @@ button:hover {
 .card-title {
   color: var(--links);
   font-size: 3rem;
-  padding-left: 8rem;
+  padding-left: rem;
   text-align: left;
   line-height: 4.2rem;
 }
 
 .flash-card-detail p {
   padding-top: 1.5rem;
-  padding-left: 8rem;
+  /* padding-left: 8rem; */
 }
 
 /* Media Queries for small device */
