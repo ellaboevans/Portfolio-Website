@@ -642,7 +642,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 5rem;
+  gap: 7rem;
   /* width: 50vw; */
   margin: 0 auto;
 }
@@ -670,6 +670,13 @@ input {
   margin: 0.5rem;
   outline: none;
   border-radius: 15px;
+}
+input::placeholder{
+  font-size: 1rem;
+}
+
+textarea::placeholder{
+  font-size: 1rem;
 }
 
 input[type="submit"] {
