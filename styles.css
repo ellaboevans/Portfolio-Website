@@ -731,7 +731,7 @@ padding: 2rem 0;
 .policy-marker{
   display: flex;
   align-items: center;
-  gap:1.4rem;
+  gap:2.5rem;
 }
 
 .policy-marker a:hover{
