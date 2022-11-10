@@ -1069,8 +1069,16 @@ input{
   width: 90vw;
 }
 
+input::placeholder{
+  text-align: center;
+}
+
 textarea{
   width: 90vw;
+}
+
+textarea::placeholder{
+  text-align: center;
 }
 
 .contact-image img{
