@@ -712,6 +712,30 @@ input[type="submit"]:hover {
 
 footer{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 2rem 0;
+}
+
+.attribution{
+  color: var(--links);
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  font-weight: lighter;
+}
+
+.copyright{
+  color: var(--links);
+}
+
+.policy-marker{
+  display: flex;
+  align-items: center;
+  gap:1.4rem;
+}
+
+.policy-marker a:hover{
+  color: #5a6472;
 }
 
 /* Media Queries for small device */
