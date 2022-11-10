@@ -58,7 +58,7 @@ const hero = () => {
   return head;
 };
 
-heroText.innerHTML = hero();
+htextContent = hero();
 
 // Hero Role Text
 
@@ -115,3 +115,86 @@ const currentYear = () => {
   copyright.innerText = year;
 };
 currentYear();
+
+// Testimonial Review
+
+const review = [
+  {
+    id: 1,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    author: "Yaw Karikari Wiafe",
+    job: "Programming Head",
+    img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    id: 2,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    author: "Emmanuel Elabo",
+    job: "CEO, JOEMAG",
+    img: "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    id: 3,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    author: "David Elabo",
+    job: "Music Director",
+    img: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    id: 4,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    author: "Reginald Elabo",
+    job: "Manager, JOEMAG",
+    img: "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+];
+
+// Select needed item
+
+const img = document.querySelector("#testifier-img");
+const author = document.querySelector("#author");
+const job = document.querySelector("#job");
+const text = document.querySelector(".testimonial-text");
+// Select Arrows
+const prevArrow = document.querySelector("#left");
+const nextArrow = document.querySelector("#right");
+
+// Setup starting
+let currentReview = 0;
+
+// It should show after window loads
+window.addEventListener("DOMContentLoaded", function () {
+  showReview(currentReview);
+});
+
+// Show review based on item
+
+function showReview(testifier) {
+  const initialReview = review[testifier];
+  text.textContent = initialReview.text;
+  author.textContent = initialReview.author;
+  job.textContent = initialReview.job;
+  img.src = initialReview.img;
+}
+
+// nextArrow
+
+nextArrow.addEventListener("click", function () {
+  currentReview++;
+  if (currentReview > review.length - 1) {
+    currentReview = 0;
+  }
+  showReview(currentReview);
+  console.log("clicked next");
+});
+
+// prevArrow
+
+prevArrow.addEventListener("click", function () {
+  currentReview--;
+  if (currentReview < 0) {
+    currentReview = review.length - 1;
+  }
+  showReview(currentReview);
+  console.log("clicked previous");
+});
