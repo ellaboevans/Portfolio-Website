@@ -511,6 +511,10 @@ button:hover {
   font-size: 55px;
   margin-left: 2rem;
 }
+
+#job{
+  color: var(--primary);
+}
 .testifier-info {
   display: flex;
   align-items: center;
