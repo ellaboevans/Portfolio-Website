@@ -152,7 +152,8 @@ header {
   box-shadow: var(--button-shadow);
 }
 
-.left-arrow, .right-arrow{
+.left-arrow,
+.right-arrow {
   border: none;
 }
 
@@ -433,7 +434,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .project-name {
   display: inline-flex;
@@ -508,7 +508,7 @@ header {
   margin-left: 2rem;
 }
 
-#job{
+#job {
   color: var(--primary);
 }
 .testifier-info {
@@ -1004,10 +1004,16 @@ footer {
   }
 
   .testimonial-arrows {
+    display: flex;
+    align-items: center;
     width: 1px;
     height: 1px;
     margin-top: 1rem;
     font-size: 1rem;
+  }
+
+  .testimonial-arrows:hover {
+    background-color: none;
   }
 
   .testimonial-text {
@@ -1091,6 +1097,6 @@ footer {
   .policy-marker {
     display: flex;
     justify-content: center;
-    gap: 1.2rem
+    gap: 1.2rem;
   }
 }
