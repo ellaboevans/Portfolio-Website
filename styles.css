@@ -720,7 +720,7 @@ padding: 2rem 0;
 .attribution{
   color: var(--links);
   font-size: 1.2rem;
-  letter-spacing: .1rem;
+  /* letter-spacing: .1rem; */
   font-weight: lighter;
 }
 
