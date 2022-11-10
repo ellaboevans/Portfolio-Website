@@ -642,6 +642,10 @@ button:hover {
   margin: 15rem;
 }
 
+.contact-image img{
+  visibility: visible;
+}
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -1016,14 +1020,16 @@ input[type="submit"]:hover {
 /* Contact Styling */
 
 #contact{
-  padding-top: 1rem;
+  padding: 6rem 0;
 }
 
 .form-container{
   flex-direction: column;
   gap: 0;
 }
-
+.contact-title{
+  font-size: 2rem;
+}
 input{
   width: 90vw;
 }
@@ -1033,7 +1039,6 @@ textarea{
 }
 
 .contact-image img{
-  width: 80vw;
-  margin-top: 3rem;
+  display: none;
 }
 }
