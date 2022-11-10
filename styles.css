@@ -141,7 +141,7 @@ header {
   z-index: -1;
 }
 
-button {
+.btns {
   cursor: pointer;
   background: var(--primary);
   border: none;
@@ -152,7 +152,11 @@ button {
   box-shadow: var(--button-shadow);
 }
 
-button:hover {
+.left-arrow, .right-arrow{
+  border: none;
+}
+
+.btns:hover {
   background-color: #00994f;
   transition: 0.4s ease all;
 }
