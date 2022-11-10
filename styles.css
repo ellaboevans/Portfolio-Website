@@ -662,6 +662,7 @@ textarea {
   margin: 0.2rem;
   outline: none;
   border-radius: 15px;
+  font-size: 1rem;
 }
 input {
   width: 30vw;
@@ -678,7 +679,9 @@ input::placeholder{
 textarea::placeholder{
   font-size: 1rem;
 }
-
+input[value=""]{
+  font-size: 1rem;
+}
 input[type="submit"] {
   background-color: var(--primary);
   border: none;
