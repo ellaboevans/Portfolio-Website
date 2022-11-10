@@ -433,8 +433,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 450px; */
-  /* height: 300px; */
+  
 }
 .project-name {
   display: inline-flex;
@@ -449,10 +448,6 @@ header {
 .project-card--image {
   position: relative;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* width: 450px; */
-  /* height: 300px; */
   border-radius: 15px;
   box-shadow: 9px 6px 17px 1px rgba(0, 0, 0, 0.555);
   background-color: var(--project-card-bg);
@@ -461,13 +456,10 @@ header {
 .project-card--image img {
   object-fit: cover;
   width: 40vw;
-  /* height: 500px; */
 }
 
 .project-image {
   position: relative;
-  /* width: 40vw; */
-  /* height: 40vh; */
   margin: 2rem 1rem;
   border-radius: 15px;
 }
@@ -660,7 +652,6 @@ header {
   align-items: center;
   padding: 0;
   gap: 7rem;
-  /* width: 50vw; */
   margin: 0 auto;
 }
 
@@ -728,7 +719,6 @@ footer {
 .attribution {
   color: var(--links);
   font-size: 1.2rem;
-  /* letter-spacing: .1rem; */
   font-weight: lighter;
 }
 
@@ -944,7 +934,6 @@ footer {
     align-items: center;
     gap: 2rem;
     padding: 2rem 0;
-    /* margin-top: rem; */
   }
   .project-items {
     display: flex;
@@ -969,7 +958,6 @@ footer {
   .project-card--image img {
     object-fit: cover;
     width: 95vw;
-    /* height: 500px; */
   }
 
   .card-hover:hover {
@@ -989,7 +977,6 @@ footer {
     justify-content: center;
     margin-top: 2rem;
     margin-left: 0;
-    /* gap: 0.5rem; */
     font-size: 1.5rem;
   }
   /* Testimonial Section */
