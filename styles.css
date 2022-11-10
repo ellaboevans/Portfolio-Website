@@ -627,6 +627,7 @@ button:hover {
 #contact {
   background-color: var(--main);
   overflow-x: hidden;
+  padding-top: 6rem;
 }
 
 .container-main {
@@ -634,7 +635,11 @@ button:hover {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 15rem 0;
+}
+
+.container-title{
+  margin: 15rem;
 }
 
 .form-container {
