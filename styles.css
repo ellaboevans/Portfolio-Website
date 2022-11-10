@@ -703,6 +703,17 @@ input[type="submit"]:hover {
   background-color: #00994f;
   transition: 0.4s ease all;
 }
+
+/* Footer Section */
+#footer{
+  background-color: var(--services-section-bg);
+  overflow-x: hidden;
+}
+
+footer{
+  display: flex;
+}
+
 /* Media Queries for small device */
 
 @media (max-width: 599px) {
