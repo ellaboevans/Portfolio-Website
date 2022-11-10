@@ -164,13 +164,13 @@ let currentReview = 0;
 
 // It should show after window loads
 window.addEventListener("DOMContentLoaded", function () {
-  showReview(currentReview);
+  showReview();
 });
 
 // Show review based on item
 
-function showReview(testifier) {
-  const initialReview = review[testifier];
+function showReview() {
+  const initialReview = review[currentReview];
   text.textContent = initialReview.text;
   author.textContent = initialReview.author;
   job.textContent = initialReview.job;
@@ -184,8 +184,7 @@ nextArrow.addEventListener("click", function () {
   if (currentReview > review.length - 1) {
     currentReview = 0;
   }
-  showReview(currentReview);
-  console.log("clicked next");
+  showReview();
 });
 
 // prevArrow
@@ -195,6 +194,5 @@ prevArrow.addEventListener("click", function () {
   if (currentReview < 0) {
     currentReview = review.length - 1;
   }
-  showReview(currentReview);
-  console.log("clicked previous");
+  showReview();
 });
