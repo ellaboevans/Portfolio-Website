@@ -156,8 +156,8 @@ const author = document.querySelector("#author");
 const job = document.querySelector("#job");
 const text = document.querySelector(".testimonial-text");
 // Select Arrows
-const prevArrow = document.querySelector("#left");
-const nextArrow = document.querySelector("#right");
+const prevArrow = document.querySelector(".left-arrow");
+const nextArrow = document.querySelector(".right-arrow");
 
 // Setup starting
 let currentReview = 0;
