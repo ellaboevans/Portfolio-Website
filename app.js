@@ -104,3 +104,14 @@ const projectDescription = () => {
 };
 
 description.innerText = projectDescription();
+
+// Copyright
+const copyright = document.querySelector(".year");
+
+let date = new Date();
+
+const currentYear = () => {
+  let year = date.getFullYear();
+  copyright.innerText = year;
+};
+currentYear();
