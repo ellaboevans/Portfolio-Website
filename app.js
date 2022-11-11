@@ -121,28 +121,28 @@ currentYear();
 const review = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    text: "“I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all",
     author: "Yaw Karikari Wiafe",
     job: "Programming Head",
     img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    text: "My new site is so much faster and easier to work with than my old site. It used to take me an hour or more to update a page and I would still sometimes screw things up.",
     author: "Emmanuel Elabo",
     job: "CEO, JOEMAG",
     img: "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    text: "Now it’s almost like having a designer right here with me. I just choose the page, make the change and click save. It’s so simple. Thanks, guys!”",
     author: "David Elabo",
     job: "Music Director",
     img: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 4,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu posuere sem. Curabitur id metus ac neque egestas gravida id eget ligula. Maecenas nec dui sem. Ut tristique a purus eu dapibus. Nam vel tempus libero, eget gravida odio. Donec ut vehicula velit, eget pretium ligula. Maecenas mi nunc, bibendum a neque vitae, suscipit mattis nisl",
+    text: "Codeconcept is a fantastic spot in the hybrid world, whether you're a small or large corporation carrying out anything from a discrete modernization program to a digital transformation campaign.",
     author: "Reginald Elabo",
     job: "Manager, JOEMAG",
     img: "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=600",
