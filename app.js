@@ -58,7 +58,7 @@ const hero = () => {
   return head;
 };
 
-htextContent = hero();
+heroText.textContent = hero();
 
 // Hero Role Text
 
@@ -294,10 +294,10 @@ const serviceCard = document.querySelector(".card-main");
 // console.log(serviceCard);
 
 window.addEventListener("DOMContentLoaded", function () {
-  displayServicesCArds(serviceCards)
+  displayServicesCArds(serviceCards);
 });
 
-function displayServicesCArds (showCard){
+function displayServicesCArds(showCard) {
   let displayCard = showCard.map(function (aService) {
     // console.log(aService)
     return `<div class="card">
@@ -312,6 +312,22 @@ function displayServicesCArds (showCard){
   </div>`;
   });
   displayCard = displayCard.join("");
-  serviceCard.innerHTML = displayCard
+  serviceCard.innerHTML = displayCard;
   // console.log(displayCard);
 }
+
+// Greet whether Morning || Afternoon || Evening
+
+const hello = document.querySelector(".hello");
+// console.log(hello)
+let day = new Date();
+let hour = day.getHours();
+function greet() {
+  if (hour < 12) {
+    return "Good Morning";
+  } else if (hour > 12 && hour < 17) {
+    return "Good afternoon";
+  }
+  return "Good evening";
+}
+hello.textContent= greet();
