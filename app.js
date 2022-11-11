@@ -315,3 +315,22 @@ function displayServicesCArds (showCard){
   serviceCard.innerHTML = displayCard
   // console.log(displayCard);
 }
+
+// Greet whether Morning || Afternoon || Evening
+// Based on simple logic
+
+const hello = document.querySelector(".hello");
+
+let day = new Date();
+let hour = day.getHours();
+
+
+function greet() {
+  if (hour < 12) {
+    return "Good Morning";
+  } else if (hour > 12 && hour < 17) {
+    return "Good afternoon";
+  }
+  return "Good evening";
+}
+hello.textContent= greet();
