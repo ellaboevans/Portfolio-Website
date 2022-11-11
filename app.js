@@ -58,7 +58,7 @@ const hero = () => {
   return head;
 };
 
-htextContent = hero();
+heroText.textContent = hero();
 
 // Hero Role Text
 
