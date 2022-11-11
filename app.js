@@ -330,7 +330,7 @@ function greet() {
     return "Good Morning";
   } else if (hour > 12 && hour < 17) {
     return "Good afternoon";
-  }
+  }else
   return "Good evening";
 }
 hello.textContent= greet();
