@@ -196,3 +196,67 @@ prevArrow.addEventListener("click", function () {
   }
   showReview();
 });
+
+// Display Project
+const projectItems = [
+  {
+    id: 1,
+    link: "https://github.com/ellaboevans/Intro-section-with-dropdown-navigation",
+    thumbnail:
+      "https://github.com/ellaboevans/Intro-section-with-dropdown-navigation/raw/main/design/desktop-shot.png",
+    projectName: "Introduction Section",
+  },
+  {
+    id: 2,
+    link: "https://github.com/ellaboevans/stat-preview-card-component-view",
+    thumbnail:
+      "https://user-images.githubusercontent.com/74984305/178721622-0f0a87c1-8de8-4fcf-bd13-f76025bf826e.png",
+    projectName: "Statistics Card Preview",
+  },
+  {
+    id: 3,
+    link: "https://github.com/ellaboevans/Product-Card-Preview-Component",
+    thumbnail:
+      "https://github.com/ellaboevans/Product-Card-Preview-Component/raw/main/images/Frontend-Mentor-Product-preview-card-component.png",
+    projectName: "Product Preview Card",
+  },
+  {
+    id: 4,
+    link: "https://github.com/ellaboevans/Product-Card-Preview-Component",
+    thumbnail:
+      "https://github.com/ellaboevans/Product-Card-Preview-Component/raw/main/images/Frontend-Mentor-Product-preview-card-component.png",
+    projectName: "Product Preview Card",
+  },
+];
+
+const project = document.querySelector(".project");
+
+window.addEventListener("DOMContentLoaded", function () {
+  populateProject(projectItems);
+});
+
+function populateProject(projectItem) {
+  let displayProject = projectItem.map(function (item) {
+    // console.log(item)
+    return `<a
+    href=${item.link}
+    target="_blank" class="project-link"
+  >
+    <div class="project-cards">
+      <div class="project-card--image card-hover">
+        <img
+          src="${item.thumbnail}"
+          class="project-image"
+          alt=${item.projectName}
+        />
+      </div>
+      <div class="project-name">
+        <h5 class="names">${item.projectName}</h5>
+        <i class="fa fa-external-link concept"></i>
+      </div>
+    </div>
+  </a>`;
+  });
+  displayProject = displayProject.join("");
+  project.innerHTML = displayProject;
+}
