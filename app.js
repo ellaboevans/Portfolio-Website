@@ -313,5 +313,5 @@ function displayServicesCArds (showCard){
   });
   displayCard = displayCard.join("");
   serviceCard.innerHTML = displayCard
-  console.log(displayCard);
+  // console.log(displayCard);
 }
