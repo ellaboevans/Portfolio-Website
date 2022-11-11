@@ -260,3 +260,58 @@ function populateProject(projectItem) {
   displayProject = displayProject.join("");
   project.innerHTML = displayProject;
 }
+
+// Display Services
+const serviceCards = [
+  {
+    id: 1,
+    icon: `<iconify-icon icon="carbon:gui-management"></iconify-icon
+    >`,
+    serviceName: "UI/UX Design",
+    desc: "For a website, app, I design the user interface. my job is to engage developers to acquire customer need.",
+  },
+  {
+    id: 2,
+    icon: `<iconify-icon
+    icon="icon-park-outline:graphic-stitching-four"
+  ></iconify-icon
+>`,
+    serviceName: "Graphics Design",
+    desc: "I design magazine layouts, branding, publicity materials, and visual communications like advertisements.",
+  },
+  {
+    id: 3,
+    icon: `<iconify-icon
+    icon="fluent:window-dev-tools-20-regular"
+  ></iconify-icon>`,
+    serviceName: "Web Development",
+    desc: "I'm in charge of creating the webpage's visual components, which visitors will see and interact with.",
+  },
+];
+
+const serviceCard = document.querySelector(".card-main");
+
+// console.log(serviceCard);
+
+window.addEventListener("DOMContentLoaded", function () {
+  displayServicesCArds(serviceCards)
+});
+
+function displayServicesCArds (showCard){
+  let displayCard = showCard.map(function (aService) {
+    // console.log(aService)
+    return `<div class="card">
+    <div class="card-info">
+    <i class="service-icon"
+      >${aService.icon}</i>
+    <h5 class="service-type">${aService.serviceName}</h5>
+    <p class="service-description">
+      ${aService.desc}
+    </p>
+  </div>
+  </div>`;
+  });
+  displayCard = displayCard.join("");
+  serviceCard.innerHTML = displayCard
+  console.log(displayCard);
+}
