@@ -312,9 +312,9 @@ header {
   position: absolute;
   width: 150px;
   height: 500px;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   border-radius: 15px;
-  animation: animate 1.1s linear infinite;
+  /* animation: animate 1.1s linear infinite; */
 }
 
 .card::after {
@@ -326,14 +326,14 @@ header {
   border-radius: 15px;
 }
 
-@keyframes animate {
+/* @keyframes animate {
   from {
     transform: rotate(0);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 .card-info {
   text-align: center;
   padding: 1rem;
