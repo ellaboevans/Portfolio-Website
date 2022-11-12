@@ -222,10 +222,10 @@ const projectItems = [
   },
   {
     id: 4,
-    link: "https://github.com/ellaboevans/Product-Card-Preview-Component",
+    link: "https://github.com/ellaboevans/Advice-Generator-App",
     thumbnail:
-      "https://github.com/ellaboevans/Product-Card-Preview-Component/raw/main/images/Frontend-Mentor-Product-preview-card-component.png",
-    projectName: "Product Preview Card",
+      "https://github.com/ellaboevans/Advice-Generator-App/raw/main/design/Frontend-Mentor-Advice-generator-app.png",
+    projectName: "Advice Generator App",
   },
 ];
 
